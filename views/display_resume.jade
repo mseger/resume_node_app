@@ -1,0 +1,46 @@
+extends layout
+
+block content
+	div(class="container")
+		div(class="three columns sidebar")
+			nav
+				img(src="http://www.balliol.ox.ac.uk/sites/default/files/microchip_seger.jpg")
+				br
+				br
+				ul
+					a(href="#me") Me
+					br
+					a(href="#latest") Latest
+					br
+					a(href="#research") Research
+					br
+					a(href="#publications") Publications
+					br
+					a(href="#contact") Contact
+
+		div(class="twelve columns offset-by-five content")
+			h1 Carl J. Seger
+
+			hr(class="large")
+			div(class="doc-section", id="me")
+				h3 Me
+
+				p 
+					| Dr. Carl Seger received his Ph.D. degree in Computer Science from University of 
+					| Waterloo, Canada, in 1988. After an academic career at Carnegie Mellon and the University 
+					| of British Columbia, ending as Associate Professor, he joined Intel in 1995 and is now a 
+					| Senior Principal Engineer in Design Technology's Strategic CAD Labs. His main research 
+					| interests are formal hardware verification and asynchronous circuits. Recently, he has 
+					| baranched out and is now working on developing new design flows that integrate the 
+					| validation effort with the design effort. He is the author of the Forte (nee Voss) 
+					| formal verification system and has published over 40 papers and books and holds 4 patents.
+
+			hr(class="large")
+			div(class="doc-section", id="latest")
+				h3 Latest
+				p
+					| Carl Seger has been at Balliol throughout the academic year 2006/07 as an Oliver Smithies Lecturer and Visiting Fellow.
+					| He is the Senior Principal Engineer and Chief Architect of the Integrated Design and Verification System at Intel
+					| , where he is concerned with verifying hardware designs, i.e. proving the correctness of the computer chips produced by
+					| Intel that power the majority of our PCs, notebooks, and servers.
+
